@@ -128,8 +128,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (WF): You would get syntax error.
 
 - Question (SK): What is the way to figure out,where the logic error is and how can we rectify it without knowing the error log?
-- Answer: TBD
-
+- Answer (PT): Logic eeror is the most difficult to debug, mainly becuase it needs a good knowldge of both programming and logics!! what I found super helpful is to replace statments with wither true and false results, and then do a rolle up of all the results. Basically, besides breaking a code into smaller sections and tackling each, there isnt any other easy way to solve Logic Errors. 
 \[Chapter 3, Problem 7\]
 - Question (WF): What do you do to fix misspelled words in SAS statements?
 - Answer (WF): SAS is statistics, not word processing. You need to use an external spellchecker.
@@ -565,6 +564,9 @@ Then to modify the column size, use a *PROC SQL* statement:
 - Answer (WF): SAS gives the variable a default type and length, and you cannot change the default.
 
 \[Chapter 13, Problem 7\]
+
+
+
 - Question (WF): Can I use negative values in SUBSTR as is the case in many other programming languages?
 - Answer (WF): The SUBSTR function takes a character matrix as an argument (along with starting positions and lengths) and produces a character matrix with the same dimensions as the argument. Elements of the result matrix are substrings of the corresponding argument elements, which they are all greater than 0.
 
